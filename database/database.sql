@@ -1,4 +1,4 @@
-CREATE DATABASE administracion_empleados;
+CREATE DATABASE administracion_empleadoss;
 USE administracion_empleados;
 
 CREATE TABLE areas(
@@ -8,8 +8,8 @@ CREATE TABLE areas(
 )ENGINE=InnoDb;
 
 INSERT INTO areas (`nombre`) VALUES ('Administracion');
-INSERT INTO roles (`nombre`) VALUES ('Desarrollo');
-INSERT INTO roles (`nombre`) VALUES ('Ventas');
+INSERT INTO areas (`nombre`) VALUES ('Desarrollo');
+INSERT INTO areas (`nombre`) VALUES ('Ventas');
 
 CREATE TABLE empleado_rol(
     empleado_id int(11) not null,
